@@ -31,7 +31,7 @@ pipeline {
          stage('Execute Maven') {
            steps {
              
-                sh 'mvn compile'             
+                sh 'mvn package'             
           }
         }
         

@@ -36,10 +36,13 @@ pipeline {
         }
         
         
-         
-        
-        
-        
+         stage('Ansible Deploy') {
+             
+            steps {
+                 
+           sh "ansible-playbook main.yml -i /ansible/hostlist -- user jenkins --key-file ~/.ssh/id_rsa"
+          }
+        } 
        
     }
 }

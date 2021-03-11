@@ -40,7 +40,7 @@ pipeline {
              
             steps {
                  
-           sh "ansible-playbook main.yml -i hostlist --user user1 --key-file ~/.ssh/id_rsa"
+           sh "ansible-playbook main.yml -i hostlist --user user1"
           }
         } 
        

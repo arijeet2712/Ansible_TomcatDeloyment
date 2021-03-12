@@ -1,10 +1,4 @@
 ---
-provider "aws" {
-  region = "us-east-2"
-  access_key = "AKIA2VW6KRN4UF37STlg"
-  secret_key = "9ZUDaVu6Y7RpCbjFQ7OohY89VewOIgfzynkK9vyd"
-}
-
 - name: Install Java 1.7
   yum: name=java-1.7.0-openjdk state=present
 

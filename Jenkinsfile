@@ -40,7 +40,7 @@ pipeline {
              
             steps {
                  
-           sh "ansible-playbook  main.yml -i hostlist1 -u user1"
+           sh "ansible-playbook  main.yml -i hostlist1 -u jenkins"
           }
         } 
        

@@ -56,4 +56,4 @@
   shell: /opt/apache-tomcat-7.0.61/bin/startup.sh
 
 - name: wait for tomcat to start
-  wait_for: port={{http_port}}
+  wait_for: port=80

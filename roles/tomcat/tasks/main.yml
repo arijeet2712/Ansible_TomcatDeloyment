@@ -2,7 +2,7 @@
 - name: Update APT package manager repositories cache
   become: true
   apt:
-      update_cache: yes
+      update_cache: no
       
 - name: Install Java 8
   become: yes
